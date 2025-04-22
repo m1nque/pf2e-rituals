@@ -1,0 +1,25 @@
+{
+  "name": "pf2e-rituals",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint --fix .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "foundry-pf2e": "github:7H3LaughingMan/foundry-pf2e",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.31.0",
+    "@typescript-eslint/parser": "^8.31.0",
+    "eslint": "^9.25.1",
+    "husky": "^9.1.7",
+    "typescript": "~5.7.2",
+    "vite": "^6.3.1"
+  }
+}

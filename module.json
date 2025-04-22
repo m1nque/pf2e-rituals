@@ -1,0 +1,30 @@
+{
+  "name": "pf2e-rituals",
+  "title": "PF2E Rituals",
+  "description": "A module for managing rituals in the PF2E system for Foundry VTT.",
+  "version": "0.0.0",
+  "author": "Your Name",
+  "license": "MIT",
+  "minimumCoreVersion": "0.8.0",
+  "compatibleCoreVersion": "0.8.9",
+  "scripts": {
+    "start": "npm run dev",
+    "build": "npm run build"
+  },
+  "manifest": "module.json",
+  "url": "https://github.com/yourusername/pf2e-rituals",
+  "readme": "README.md",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "static/languages/en.json"
+    }
+  ],
+  "assets": [
+    {
+      "type": "image",
+      "path": "static/assets/icons"
+    }
+  ]
+}
