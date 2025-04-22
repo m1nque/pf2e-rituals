@@ -43,7 +43,35 @@
       }
     ]
   },
+  "packs": [
+      {
+          "name": "Item-cnuonego",
+          "label": "Item",
+          "type": "Item",
+          "system": "pf2e",
+          "path": "packs/Item-cnuonego.db",
+          "entity": "Item",
+          "module": "pf2e-rituals"
+      },
+      {
+          "name": "Actor-qlfkpupl",
+          "label": "Actor",
+          "type": "Actor",
+          "system": "pf2e",
+          "path": "packs/Actor-qlfkpupl.db",
+          "entity": "Actor",
+          "module": "pf2e-rituals"
+      },
+      {
+          "name": "Cards-wbyyacrv",
+          "label": "Cards",
+          "type": "Cards",
+          "path": "packs/Cards-wbyyacrv.db",
+          "entity": "Cards",
+          "module": "pf2e-rituals"
+      }
+  ],
   "url": "https://github.com/m1nque/pf2e-rituals",
   "manifest": "https://github.com/m1nque/pf2e-rituals/releases/latest/download/module.json",
-  "download": "https://github.com/m1nque/pf2e-rituals/releases/latest/download/pf2e-rituals.zip"
+  "download": "https://github.com/yourusername/pf2e-rituals/releases/latest/download/pf2e-rituals.zip"
 }

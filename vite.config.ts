@@ -1,8 +1,6 @@
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
-import { defineConfig } from 'vite';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
-import { resolve } from 'path';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 
 // Foundry 데이터 경로 - 개발 환경에 맞게 수정하세요
