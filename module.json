@@ -1,30 +1,49 @@
 {
-  "name": "pf2e-rituals",
-  "title": "PF2E Rituals",
-  "description": "A module for managing rituals in the PF2E system for Foundry VTT.",
-  "version": "0.0.0",
-  "author": "Your Name",
-  "license": "MIT",
-  "minimumCoreVersion": "0.8.0",
-  "compatibleCoreVersion": "0.8.9",
-  "scripts": {
-    "start": "npm run dev",
-    "build": "npm run build"
+  "id": "pf2e-rituals",
+  "title": "PF2e Rituals",
+  "description": "A module for Pathfinder 2e rituals in Foundry VTT",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
   },
-  "manifest": "module.json",
-  "url": "https://github.com/yourusername/pf2e-rituals",
-  "readme": "README.md",
+  "authors": [
+    {
+      "name": "Min-Q",
+      "url": "https://github.com/m1nque",
+      "discord": "m1nque"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "assets/module.css"
+  ],
   "languages": [
     {
       "lang": "en",
       "name": "English",
-      "path": "static/languages/en.json"
+      "path": "languages/en.json"
+    },
+    {
+      "lang": "ko",
+      "name": "Korean",
+      "path": "languages/ko.json"
     }
   ],
-  "assets": [
-    {
-      "type": "image",
-      "path": "static/assets/icons"
-    }
-  ]
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0"
+        }
+      }
+    ]
+  },
+  "url": "https://github.com/m1nque/pf2e-rituals",
+  "manifest": "https://github.com/m1nque/pf2e-rituals/releases/latest/download/module.json",
+  "download": "https://github.com/m1nque/pf2e-rituals/releases/latest/download/pf2e-rituals.zip"
 }
